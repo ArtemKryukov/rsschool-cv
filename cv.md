@@ -14,3 +14,22 @@ I am 24 years old. I have a higher economic education, but after graduating I re
 
 ---
 
+### Skills:
+ * HTML5 & CSS3
+ * BEM methodology
+ * JavaScript Basics
+ * Git
+ * Figma(for web development)
+ * VS Code
+
+---
+
+### Cod examples:
+ **Task description:** Given an array of integers, return a new array with each value doubled.
+ ```
+ function maps(x){
+   return x.map(n => n * 2);
+ }
+ ```
+
+---
