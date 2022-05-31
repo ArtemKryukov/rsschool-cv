@@ -33,3 +33,14 @@ I am 24 years old. I have a higher economic education, but after graduating I re
  ```
 
 ---
+
+### Courses:
+ * FreeCodeCamp (in progress)
+ * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+ * CS50 (completed)
+ * NIIT Basics JavaScript(completed)
+
+---
+
+### Languages:
+ Elementary – А2
