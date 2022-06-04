@@ -15,13 +15,30 @@
     padding: 0 30px;
 }
 
+.wrapper{
+    margin-top: 75px;
+}
+
 .wrapper__container{
     display: flex;
 }
 
+.aside{
+    width: 30%;
+    
+}
 
+.main{
+    width: 70%;
+    margin-left: 50px;
+}
 
 .title{
+    margin-bottom: 30px;
+    font-size: 26px;
+}
+
+.header__title{
     font-size: 34px;
     line-height: 1.7;
 }
@@ -87,9 +104,37 @@
     margin-right: 50px;
 }
 
+.skills{
+    border-bottom: 2px solid #fff;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
 
+.skills__items{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+}
+.skills__item{
+    position: relative;
+}
 
+.skills__item:not(:last-child){
+    margin-bottom: 30px;
+}
 
+.contacts{
+    margin-bottom: 30px;
+}
+
+.contacts__item{
+    font-size: 18px;
+}
+
+.contacts__item:not(:last-child){
+    margin-bottom: 15px;
+}
 
 
 
