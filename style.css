@@ -158,4 +158,12 @@
     border-bottom: 1px solid #fff;
 }
 
+.language{
+    margin-bottom: 30px;
+}
+
+.language__item{
+    margin-bottom: 15px;
+}
+
 
