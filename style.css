@@ -17,6 +17,8 @@
 
 .wrapper{
     margin-top: 75px;
+    margin-bottom: 35px;
+    border-bottom: 2px solid #fff;
 }
 
 .wrapper__container{
@@ -65,7 +67,7 @@
 .header__img{
     width: 250px;
     height: 250px;
-    margin-right: 150px;
+    margin-right: 200px;
 }
 
 .header__info{
@@ -164,6 +166,18 @@
 
 .language__item{
     margin-bottom: 15px;
+}
+
+
+
+.footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__img{
+    width: 100px;
+    height: 100px;
 }
 
 
