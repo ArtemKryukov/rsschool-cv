@@ -160,6 +160,22 @@
     border-bottom: 1px solid #fff;
 }
 
+.project {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+}
+.project__info{
+    width: 475px;
+    padding: 10px;
+    border: 1px solid #fff;
+}
+
+.project__img{
+    width: 450px;
+    margin-bottom: 10px;
+}
+
 .language{
     margin-bottom: 30px;
 }
