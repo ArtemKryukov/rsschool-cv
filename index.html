@@ -4,12 +4,166 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Artem Kryukov - Junior Front-End Developer</title>
 </head>
 
 <body>
-    <section class="header">
-        
-    </section>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__menu menu">
+                <button type="button" class="menu__icon icon-menu"><span></span></button>
+                <nav class="menu__body">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="" class="menu__link">About Me</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Contacts</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Skills</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Code</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Languages</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Courses</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="header__main">
+                <img class="header__img" src="./assets/img/akm.webp" alt="avatar">
+                <div class="header__info">
+                    <h1 class="header__title">Hi, I'm Artem</h1>
+                    <h2 class="sub-title">Junior Front-End Developer</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="wrapper">
+        <div class="container">
+            <div class="wrapper__container">
+                <aside class="aside">
+                    <section class="skills">
+                        <h2 class="title">Skills</h2>
+                        <ul class="skills__items">
+                            <li class="skills__item skills-html ">
+                                HTML
+                            </li>
+                            <li class="skills__item skills-css">
+                                CSS
+                            </li>
+                            <li class="skills__item skills-sass">
+                                SASS
+                            </li>
+                            <li class="skills__item skills-js">
+                                JavaScript
+                            </li>
+                            <li class="skills__item skills-git">
+                                GIT
+                            </li>
+                            <li class="skills__item skills-github">
+                                GitHub
+                            </li>
+                            <li class="skills__item skills-figma">
+                                Figma
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="contacts">
+                        <h2 class="title">Contacts</h2>
+                        <ul class="contacts__items">
+                            <li class="contacts__item">
+                                <a class="contacts__link" href="tel:89306760940">Phone: 8(930)676-09-40</a>
+                            </li>
+                            <li class="contacts__item">
+                                <a class="contacts__link" href="mailto:nndeveloper.akm@gmail.com">E-mail: nndeveloper.akm@gmail.com  </a>
+                            </li>
+                            <li class="contacts__item">
+                                <a class="contacts__link" href="https://t.me/artemkriukov">Telegram</a>
+                            </li>
+                        </ul>
+                    </section>
+                </aside>
+
+                <main class="main">
+                    <section class="about">
+                        <h2 class="title">About Me</h2>
+                        <p class="about__text">
+                            Hi, I'm the front-end developer you lack. I like to study and learn something new.
+                            I have a higher economic education, but after graduating I realized that I was really interested in programming.
+                            I like to create and look at my result, it gives me motivation to study further.
+                        </p>
+                    </section>
+                    <section class="courses">
+                        <h2 class="title">Courses</h2>
+                        <ul class="courses__items">
+                            <li class="courses__item">
+                                FreeCodeCamp (in progress)
+                            </li>
+                            <li class="courses__item">
+                                RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+                            </li>
+                            <li class="courses__item">
+                                CS50 (completed)
+                            </li>
+                            <li class="courses__item">
+                                NIIT Basics JavaScript(completed)
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="cod">
+                        <h2 class="title">Cod examples</h2>
+                        <p>Task description: Given an array of integers, return a new array with each value doubled.</p>
+                        <pre>
+                            <code>
+                                function maps(x){
+                                    return x.map(n => n * 2);
+                                }
+                            </code>
+                        </pre>
+                    </section>
+                    <section class="project">
+                        <h2 class="title">My Project</h2>
+                        <div class="project__info">
+                            <a class="project__link" href="https://github.com/ArtemKryukov/-Quadratic-equation" target="_blank">
+                                <img class="project__img" src="./assets/img/quadratic.png" alt="project">
+                            </a>
+                            <ul class="project__items">
+                                <li class="project__item">app that calculates quadratic equation</li>
+                                <li class="project__item">technology: Html, Css, JS</li>
+                            </ul>
+                            
+                        </div>
+                    </section>
+                    <section class="language">
+                        <h2 class="title">Language</h2>
+                        <ul class="language__items">
+                            <li class="language__item">
+                                English:Elementary – А2
+                            </li>
+                            <li class="language__item">
+                                Russia: Native
+                            </li>
+                        </ul>
+                    </section>
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__github">
+                    <a class="footer__link" href="https://github.com/ArtemKryukov">My GitHub</a>
+                </div>
+                <div class="footer__creation">
+                    June 2022
+                </div>
+                <a class="footer__img" href="https://rs.school/js/">
+                    <img class="footer__images" src="./assets/img/rs_school_js.svg" alt="RS School">
+                </a>
+            </div>
+
+        </div>
+    </footer>
 </body>
 </html>
